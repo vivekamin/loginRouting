@@ -1,4 +1,4 @@
-var teamNest = angular.module('teamNest',['ngRoute','ngAnimate']);
+var teamNest = angular.module('teamNest',['ngResource','ngRoute','ngAnimate']);
 
 teamNest.config(['$routeProvider', '$locationProvider',
     function($routeProvider, $locationProvider) {
